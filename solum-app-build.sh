@@ -1,3 +1,5 @@
 #!/bin/bash
 
-cp hello.php /var/www/html/.
+exit 0
+
+#cp hello.php /var/www/html/.
