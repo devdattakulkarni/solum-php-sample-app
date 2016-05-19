@@ -1,5 +1,10 @@
 #!/bin/bash
 
-exit 0
+if [ -d "/var/www/html" ]; then
+    cp hello.php /var/www/html/.
+fi
 
-#cp hello.php /var/www/html/.
+if [ -d "/var/www/public" ]; then
+    cp hello.php /var/www/public/.
+fi
+
